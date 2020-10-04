@@ -1,0 +1,9 @@
+webharp-strings {
+  height: 100%;
+  display: flex;
+}
+
+webharp-strings > webharp-string,
+div.spacer {
+  flex: 1;
+}

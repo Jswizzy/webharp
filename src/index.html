@@ -1,11 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Empty project</title>
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <div id="app"></div>
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <title>Web Harp</title>
+    <meta charset="utf-8" />
+    <script src="index.js"></script>
+    <script>
+      function clicktostart() {
+        document.querySelector(".audio-fix").style.display = "none";
+        document.querySelector("webharp-app").style.display = "inline-block";
+      }
+    </script>
+  </head>
+  <body>
+    <webharp-app strings="12"></webharp-app>
+    <div class="audio-fix" onclick="clicktostart()">Click Me To Start</div>
+  </body>
 </html>

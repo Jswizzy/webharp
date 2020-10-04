@@ -12,16 +12,23 @@
     "build-prod": "parcel build src/index.html",
     "test": "jest"
   },
-  "dependencies": {},
+  "dependencies": {
+    "csshake": "^1.5.3",
+    "tone": "^14.7.58"
+  },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "jest": "^26.4.2",
-    "babel-jest": "^26.3.0",
     "@babel/core": "^7.11.6",
+    "@babel/eslint-parser": "^7.11.5",
     "@babel/preset-env": "^7.11.5",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.3.0",
+    "babel-preset-env": "^1.7.0",
     "eslint": "^7.10.0",
-    "prettier": "^2.1.2",
     "eslint-config-prettier": "^6.12.0",
-    "eslint-plugin-prettier": "^3.1.4"
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.4.2",
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2",
+    "sass": "^1.26.11"
   }
 }
